@@ -777,7 +777,7 @@ function showSlide(index){
 
     });
 
-    slides[slideIndex].style.display="flex";
+    slides[slideIndex].style.display="block";
 
     dots[slideIndex].classList.add("active");
 
