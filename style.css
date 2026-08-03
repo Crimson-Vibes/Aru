@@ -1199,17 +1199,9 @@ h3{
 
     height:600px;
 
-    object-fit:contain;
-
-    object-position:center;
+    object-fit:cover;
 
     display:block;
-
-    background:linear-gradient(
-    180deg,
-    #0F172A,
-    #111827
-);
 
 }
 
