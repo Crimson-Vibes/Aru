@@ -1104,7 +1104,45 @@ h3{
 
 }
 
+/* ===========================================================
+   MEMORY GALLERY
+=========================================================== */
 
+.gallery-grid{
+
+    column-count:3;
+
+    column-gap:20px;
+
+}
+
+.gallery-image{
+
+    width:100%;
+
+    margin-bottom:20px;
+
+    border-radius:18px;
+
+    cursor:pointer;
+
+    transition:.35s;
+
+    break-inside:avoid;
+
+    display:block;
+
+}
+
+.gallery-image:hover{
+
+    transform:scale(1.03);
+
+    box-shadow:
+
+    0 15px 35px rgba(0,0,0,.45);
+
+}
 
 /* ===========================================================
    LIGHTBOX
