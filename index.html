@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ==========================================
+        Happy Birthday Aru 🐸
+        File: index.html
+        CSS: style.css
+        JS: script.js
+    =========================================== -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Paglu ❤️</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ==========================================
+                LOADING SCREEN
+    =========================================== -->
+
+    <div id="loader">
+
+        <div class="loader-content">
+
+            <h1>
+                Happy Birthday,
+                <span>Aru 🐸</span>
+            </h1>
+
+            <p>Loading Memories...</p>
+
+            <div class="loading-bar">
+                <div class="loading-fill"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ==========================================
+                FLOATING BACKGROUND
+    =========================================== -->
+
+    <div id="stars"></div>
+
+    <div id="particles"></div>
+
+    <div id="balloons"></div>
+
+    <!-- Animated Moon -->
+
+    <div id="moon" title="Click Me!">
+        🌙
+    </div>
+
+    <!-- Cursor Sparkles -->
+
+    <div id="sparkle-container"></div>
+
+    <!-- ==========================================
+                BACK TO TOP
+    =========================================== -->
+
+    <button id="backToTop">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- ==========================================
+                EASTER EGG MESSAGE
+    =========================================== -->
+
+    <div id="easterEggMessage"></div>
+
+    <!-- ==========================================
+                HERO SECTION
+    =========================================== -->
+
+    <header class="hero">
+
+        <div class="hero-content">
+
+            <h1 class="hero-title">
+                Happy Birthday
+                <span>Paglu 🎉</span>
+            </h1>
+
+            <p class="hero-subtitle">
+
+                "Click below...
+                I've made something for you."
+
+            </p>
+
+            <a href="#letter" class="start-btn">
+
+                Start Journey
+
+            </a>
+
+        </div>
+
+    </header>
+
+    <!-- ==========================================
+                BIRTHDAY LETTER
+    =========================================== -->
+
+    <main>
+
+        <section id="letter" class="section">
+
+            <h2 class="section-title">
+
+                A Letter For You ❤️
+
+            </h2>
+
+            <div class="glass-card letter-card">
+
+                <!--
+                    Editable Text
+                    You can freely edit this paragraph.
+                -->
+
+                <p id="typewriter">
+
+Happy Birthday, paglu! 🎉 Pata nahi kaise, but tu meri life ka permanent headache ban gaya. 😂 Har din kuch na kuch bakchodi, random VCs, chess ki baatein, magic ke theories aur beech beech mein tera shamshaan obsession... normal insaan hai bhi ya nahi? 💀
+
+Waise tension mat le, shamshaan bhaag nahi raha hai... tere paas abhi bohot saal bache hain waha permanently shift hone ke liye. 😭
+
+Aur haan... meri idli dosa mein chocolate daalne ki planning bhi band kar de. Kuch crimes maaf nahi hote.
+
+Thanks for all the laughs, random conversations aur mujhe Mendak bol bol ke pareshaan karne ke liye.
+
+Bas aise hi rehna.
+
+Happy Birthday Chotu ❤️
+
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- ==========================================
+                    INSIDE JOKES
+        =========================================== -->
+
+        <section id="jokes" class="section">
+
+            <h2 class="section-title">
+
+                Certified Inside Jokes 😂
+
+            </h2>
+
+            <div class="cards-container">
+
+                <article class="glass-card joke-card reveal">
+
+                    <div class="emoji">
+                        🐸
+                    </div>
+
+                    <h3>Mendak</h3>
+
+                    <p>
+                        Mujhe Mendak bolna tera janmasiddh adhikar ban gaya hai.
+                    </p>
+
+                </article>
+
+                <article class="glass-card joke-card reveal">
+
+                    <div class="emoji">
+                        🎩
+                    </div>
+
+                    <h3>Magic</h3>
+
+                    <p>
+                        Agar Hogwarts hota toh tu detention mein graduate karta.
+                    </p>
+
+                </article>
+
+                <article class="glass-card joke-card reveal">
+
+                    <div class="emoji">
+                        ♟
+                    </div>
+
+                    <h3>Chess</h3>
+
+                    <p>
+                        Chess mein shayad tu jeet jaaye...
+                        arguments mein nahi.
+                    </p>
+
+                </article>
+
+                <article class="glass-card joke-card reveal">
+
+                    <div class="emoji">
+                        💀
+                    </div>
+
+                    <h3>Shamshaan</h3>
+
+                    <p>
+
+                        Shamshaan bhaag nahi raha...
+
+                        <br><br>
+
+                        Abhi bohot saal bache hain tere.
+
+                    </p>
+
+                </article>
+
+                <article class="glass-card joke-card reveal">
+
+                    <div class="emoji">
+                        🍫
+                    </div>
+
+                    <h3>Chocolate Idli</h3>
+
+                    <p>
+
+                        Meri idli dosa ke paas chocolate lekar mat aana.
+
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- ==========================================
+                    SURPRISE
+        =========================================== -->
+
+        <section id="surprise" class="section">
+
+            <h2 class="section-title">
+
+                One More Thing 🎁
+
+            </h2>
+
+            <button id="giftButton">
+
+                🎁
+
+                <span>Open Gift</span>
+
+            </button>
+
+        </section>
+
+        <!-- Popup -->
+
+        <div id="giftPopup">
+
+            <div class="popup-content glass-card">
+
+                <button id="closePopup">
+
+                    &times;
+
+                </button>
+
+                <h2>
+
+                    🎉 Unlocked 🎉
+
+                </h2>
+
+                <ul>
+
+                    <li>✔ Infinite Bakchodi</li>
+
+                    <li>✔ Endless VCs</li>
+
+                    <li>✔ Chess Matches</li>
+
+                    <li>✔ Magic Talks</li>
+
+                    <li>✔ One Lifetime Friendship</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <!-- ==========================================
+                    MEMORY GALLERY
+        =========================================== -->
+
+        <section id="gallery" class="section">
+
+            <h2 class="section-title">
+
+                Our Memories 📸
+
+            </h2>
+
+            <div class="gallery-grid">
+
+                <img src="images/1.jpg" alt="Memory 1" class="gallery-image">
+
+                <img src="images/2.jpg" alt="Memory 2" class="gallery-image">
+
+                <img src="images/3.jpg" alt="Memory 3" class="gallery-image">
+
+                <img src="images/4.jpg" alt="Memory 4" class="gallery-image">
+
+                <img src="images/5.jpg" alt="Memory 5" class="gallery-image">
+
+                <img src="images/6.jpg" alt="Memory 6" class="gallery-image">
+
+            </div>
+
+        </section>
+
+        <!-- Image Lightbox -->
+
+        <div id="lightbox">
+
+            <span id="closeLightbox">
+
+                &times;
+
+            </span>
+
+            <img id="lightboxImage" src="" alt="">
+
+        </div>
+
+        <!-- ==========================================
+                    SLIDESHOW
+        =========================================== -->
+
+        <section id="slideshowSection" class="section">
+
+            <h2 class="section-title">
+
+                A Little Slideshow ❤️
+
+            </h2>
+
+            <div class="slideshow-container">
+
+                <div class="slide fade">
+
+                    <img src="images/1.jpg" alt="">
+
+                    <p class="caption">
+
+                        Random memories >>
+
+                    </p>
+
+                </div>
+
+                <div class="slide fade">
+
+                    <img src="images/2.jpg" alt="">
+
+                    <p class="caption">
+
+                        Endless VCs
+
+                    </p>
+
+                </div>
+
+                <div class="slide fade">
+
+                    <img src="images/3.jpg" alt="">
+
+                    <p class="caption">
+
+                        Bakchodi Unlimited
+
+                    </p>
+
+                </div>
+
+                <div class="slide fade">
+
+                    <img src="images/4.jpg" alt="">
+
+                    <p class="caption">
+
+                        Chess > Sleep
+
+                    </p>
+
+                </div>
+
+                <div class="slide fade">
+
+                    <img src="images/5.jpg" alt="">
+
+                    <p class="caption">
+
+                        Magic Talks ✨
+
+                    </p>
+
+                </div>
+
+                <div class="slide fade">
+
+                    <img src="images/6.jpg" alt="">
+
+                    <p class="caption">
+
+                        Best Idiot Award 🐸
+
+                    </p>
+
+                </div>
+
+                <button class="prev">
+
+                    ❮
+
+                </button>
+
+                <button class="next">
+
+                    ❯
+
+                </button>
+
+            </div>
+
+            <div class="dots">
+
+                <span class="dot"></span>
+
+                <span class="dot"></span>
+
+                <span class="dot"></span>
+
+                <span class="dot"></span>
+
+                <span class="dot"></span>
+
+                <span class="dot"></span>
+
+            </div>
+
+        </section>
+
+        <!-- ==========================================
+                    FINAL SCREEN
+        =========================================== -->
+
+        <section id="final" class="section">
+
+            <div class="final-content">
+
+                <h2>
+
+                    Until Next Birthday ❤️
+
+                </h2>
+
+                <p id="finalTyping">
+
+That's all.
+
+Just wanted to remind you...
+
+You're genuinely one of my favourite idiots.
+
+Stay happy.
+
+Stay weird.
+
+Happy Birthday Paglu ❤️
+
+- From your favourite Mendak 🐸
+
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- ==========================================
+                OPTIONAL MUSIC
+    =========================================== -->
+
+    <audio id="bgMusic" loop>
+
+        <source src="music.mp3" type="audio/mpeg">
+
+    </audio>
+
+    <!-- ==========================================
+                JAVASCRIPT
+    =========================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
