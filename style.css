@@ -1172,55 +1172,44 @@ h3{
 .slideshow-container{
 
     position:relative;
-
     width:100%;
     max-width:1000px;
-
     margin:auto;
 
-    border-radius:25px;
-
+    border-radius:20px;
     overflow:hidden;
 
     background:#0b1120;
+    padding:20px;
 
 }
 
 .slide{
 
     display:none;
-
-    justify-content:center;
-    align-items:center;
-
-    min-height:65vh;
-
-    padding:20px;
+    text-align:center;
 
 }
 
 .slide img{
 
-    width:100%;
+    width:auto;
 
-    max-width:900px;
+    max-width:100%;
 
-    height:500px;
+    max-height:600px;
 
-    object-fit:contain;
-
-    object-position:center;
+    height:auto;
 
     display:block;
 
     margin:auto;
 
-    background:#111827;
+    object-fit:contain;
 
-    border-radius:18px;
+    border-radius:15px;
 
 }
-
 
 .fade{
 
